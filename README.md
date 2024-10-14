@@ -1,23 +1,19 @@
 <div align="center">
 <h1>matrix 🌧️</h1>
 <p>A Matrix digital rain implemented in pure BASH v5.1+</p>
-<img src="matrix.gif">
-<br/>
-<img src="https://shields.io/badge/made-with%20%20bash-green?style=flat-square&color=d5c4a1&labelColor=1d2021&logo=gnu-bash">
-<img src=https://img.shields.io/badge/Maintained%3F-yes-green.svg></img>  
-<a href="https://discord.gg/W4mQqNnfSq">
-<img src="https://discordapp.com/api/guilds/913584348937207839/widget.png?style=shield"/></a>
-</div>
-
+![image](https://github.com/user-attachments/assets/122e3c29-a906-40c1-8290-d3916ab6b173)
+<br>
+I changed the speed and charcters used from the original.
+Charcters used in this fork "'☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶⌂æÆ╛┐└┴┬├ ┼ ─ ╞ ╚╟╔╩╦╠═╬╧╨╤²■€ƒ…†‡‰ŒŽÅÆÐ§▬↨↑↓→←▲▼^¢£¥₧ª▄▌▐▀αßπΣσ©¨¦¤™•ØÞçµ*¿º½¼«»░▒▓≈⌡⌠≤≥≡∩εφ∞δΩΘª±²³¶¾øðⁿ√~
 ## Acquisition
 stream `matrix` without downloading/installing
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/wick3dr0se/matrix/main/matrix)
+bash <(curl -s https://raw.githubusercontent.com/ftreff/matrix/main/matrix)
 ```
 
 otherwise, download
 ```bash
-git clone https://github.com/wick3dr0se/matrix; cd matrix
+git clone https://github.com/ftreff/matrix; cd matrix
 ```
 
 install to $PATH (optional)
@@ -27,6 +23,3 @@ cp matrix /usr/local/bin
 
 ## Execution
 if installed to $PATH `matrix`, otherwise `./matrix` or `bash matrix`
-
-### Let it rain
-![let it rain](https://media1.tenor.com/m/wYaAw3v5zN0AAAAd/tiziano-ferro-rain.gif)
