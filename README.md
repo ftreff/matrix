@@ -4,7 +4,7 @@
 <img src="https://github.com/user-attachments/assets/122e3c29-a906-40c1-8290-d3916ab6b173">
 <br>
 I changed the speed and charcters used from the original.
-<br><br><br>
+<br><br>
 Charcters used in this fork:
 <br>
 "'☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶⌂æÆ╛┐└┴┬├ ┼ ─ ╞ ╚╟╔╩╦╠═╬╧╨╤²■€ƒ…†‡‰ŒŽÅÆÐ§▬↨↑↓→←▲▼^¢£¥₧ª▄▀▐▌αßπΣσ©¨¦¤™•ØÞçµ*¿º«»░▒▓≈⌡⌠≤≥≡∩εφ∞δΩΘª±²³½¼¾¶øðⁿ√~
