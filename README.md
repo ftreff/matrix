@@ -15,7 +15,7 @@ Charcters used in this fork:
 ## Acquisition
 stream `matrix` without downloading/installing
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/ftreff/matrix/main/matrix)
+bash <(curl -s https://raw.githubusercontent.com/ftreff/matrix/main/matrix.sh)
 ```
 
 otherwise, download
@@ -25,8 +25,8 @@ git clone https://github.com/ftreff/matrix; cd matrix
 
 install to $PATH (optional)
 ```bash
-cp matrix /usr/local/bin
+cp matrix.sh /usr/local/bin
 ```
 
 ## Execution
-if installed to $PATH `matrix`, otherwise `./matrix` or `bash matrix`
+if installed to $PATH `matrix.sh`, otherwise `./matrix.sh` or `bash matrix.sh`
