@@ -29,4 +29,6 @@ sudo cp matrix.sh /usr/local/bin
 ```
 
 ## Execution
+```bash
 if installed to $PATH `matrix.sh`, otherwise `./matrix.sh` or `bash matrix.sh`
+```
