@@ -20,12 +20,12 @@ bash <(curl -s https://raw.githubusercontent.com/ftreff/matrix/main/matrix.sh)
 
 otherwise, download
 ```bash
-git clone https://github.com/ftreff/matrix; cd matrix
+git clone https://github.com/ftreff/matrix; cd matrix; chmod +x matrix.sh
 ```
 
 install to $PATH (optional)
 ```bash
-cp matrix.sh /usr/local/bin
+sudo cp matrix.sh /usr/local/bin
 ```
 
 ## Execution
