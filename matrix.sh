@@ -1,5 +1,3 @@
-@@ -1,46 +1,51 @@
-
 #!/usr/bin/env bash
 
 init_term() {
@@ -20,7 +18,6 @@ rain() {
 ((dropCol=SRANDOM%COLUMNS+1))
 ((dropLen=SRANDOM%(LINES/2)+2))
     ((dropSpeed=SRANDOM%9+1))
-    ((dropSpeed=SRANDOM%9+100)) #changed 9+1 to 9+100
 ((dropColDim=SRANDOM%4))
     color="${COLORS[SRANDOM%${#COLORS}]}"
     color="${COLORS[SRANDOM%3]}"
@@ -47,22 +44,18 @@ trap 'wait; exit' INT
 trap 'wait; stty echo; exit' INT
 trap 'init_term' WINCH
 
-SYMBOLS='0123456789!@#$%^&*()-_=+[]{}|;:,.<>?abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+SYMBOLS='☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕░▒▓‼¶⌂æÆ╛┐└┴┬├ ┼ ─ ╞ ╚╟╔╩╦╠═╬╧╨╤²■€ƒ…†‡‰ŒŽÅÆÐ☺☻♥♦♣♠░▒▓§▬↨↑↓→←▲▼^¢£¥₧ª▄▌▐▀αßπΣσ©¨¦¤™•ØÞçµ*¿º½¼«»░▒▓≈⌡⌠≤≥≡∩εφ∞δΩΘª±²³¶¾øðⁿ√~☺☻♥♦♣♠'
+#    Originally added "█" to SYMBOLS but it stood out too much from the other charcters I removed it
+#     Some charcters are duplicated to make them appear more commonly than others.
+#    Original charcters;
 #SYMBOLS='0123456789!@#$%^&*()-_=+[]{}|;:,.<>?abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
-SYMBOLS='☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶⌂æÆ╛┐└┴┬├ ┼ ─ ╞ ╚╟╔╩╦╠═╬╧╨╤²■€ƒ…†‡‰ŒŽÅÆÐ☺☻♥♦♣♠§▬↨↑↓→←▲▼^¢£¥₧ª▄▌▐▀αßπΣσ©¨¦¤™•ØÞçµ*¿º½¼«»░▒▓≈⌡⌠≤≥≡∩εφ∞δΩΘª±²³¶¾øðⁿ√~☺☻♥♦♣♠'
-#Originally added "█" to SYMBOLS but it stood out too much from the other charcters I removed it
-# ☺☻♥♦♣♠ are purposly duplicated in the SYMBOLS charcter list because I like them ;-)
 COLORS=('102;255;102' '255;176;0' '169;169;169')
 
 matrix() {
     init_term|| { printf 'Failed initializing terminal\n'; return 1; }
     stty -echo
-    
     init_term; stty -echo
-
 for((;;)) { rain "$SYMBOLS" & sleep 0.1; }
 }
 
-matrix
 matrix
